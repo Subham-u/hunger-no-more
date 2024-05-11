@@ -3,52 +3,31 @@ import React from "react";
 export default function CoreTeam() {
   const cc = [
     {
-      avatar: "/team/sn.png",
-      name: "SN Tak",
-      position: "Faculty Coordinator",
+      avatar: "/team/Sanjeev-Kumar.jpg",
+      name: "Sanjeev-Kumar",
+      position: "Dean and Professor",
     },
     {
-      avatar: "/team/pulkit.png",
-      name: "Pulkit Meena",
+      avatar: "/team/Alka-Siwach.jpg",
+      name: "Alka-Siwach",
       position: "Coordinator",
     },
     {
-      avatar: "/team/avinash.png",
-      name: "Avinash Lakhyani",
-      position: "Secretary",
+      avatar: "/team/Soumya-Aggarwal.jpg",
+      name: "Soumya-Aggarwal",
+      position: "COO",
     },
     {
-      avatar: "/team/vineet.png",
-      name: "Vineet Barwal",
-      position: "Joint Secretary",
-    },
-    {
-      avatar: "/team/madhur.png",
-      name: "Madhur Bansal",
-      position: "Executive Member",
-    },
-    {
-      avatar: "/team/ankit.png",
-      name: "Ankit Gupta",
-      position: "Executive Member",
-    },
-    {
-      avatar: "/team/arundhati.png",
-      name: "Arundhati Sharma",
-      position: "Creative",
-    },
-    {
-      avatar: "/team/aryan.png",
-      name: "Aryan Jagarwal",
-      position: "Editor",
+      avatar: "/team/Sahil-Aggarwal.jpg",
+      name: "Sahil-Aggarwal",
+      position: "CEO",
     },
   ];
   return (
     <div className="flex flex-col w-full items-center my-10 md:my-14 " id="team">
       <p className="text-4xl font-bold">Core Team</p>
       <p className="text-gray-500 text-xl w-full md:w-8/12 text-center my-4">
-        Teamwork is the fuel that allows common people to attain uncommon
-        results.
+      People who are leading the program.
       </p>
       <div className="w-max-[90vw] w-full md:w-8/12 overflow-x-auto">
         <div className="flex flex-row w-max flex-wrap">

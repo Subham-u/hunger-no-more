@@ -8,9 +8,9 @@ export default function Footer() {
           <div className="text-black flex flex-col md:items-center f-f-l pt-3 w-full">
             <img src="/header_logo.png" alt="" className="h-12 lg:h-14 w-8/12 sm:w-auto self-center object-contain" />
             <div className="my-6 text-base text-color f-f-l mx-4 opacity-60 text-center">
-              <b>Address:</b> Rajasthan Technical University<br/>
-              Akelgarh, Rawatbhata Road, Kota - 324010 <br/>
-              <b>Email:</b> admin@teamhnm.org<br/><b>Mobile:</b> +919024689024
+              <b>Address:</b> Rishihood University<br/>
+              Sonipat, 131021, Haryana, India<br/>
+              <b>Email:</b> namaste@rishihood.edu.in<br/><b>Mobile:</b> 1800-120-6631
             </div>
             <div className="text-sm text-color mb-10 f-f-l self-center">
               <span className="text-sm">
@@ -20,7 +20,7 @@ export default function Footer() {
                   rel="noreferrer noopener"
                   className=" sm:text-center sm:text-base transition-all ease-in-out"
                 >
-                  {"</>"} with 💛 by Vishwa Gaurav{" "}
+                  {"</>"} with 💛 by Subham Mahapatra{" "}
                 </a>
               </span>
             </div>

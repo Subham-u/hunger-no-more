@@ -13,9 +13,9 @@ export default function Donate() {
             Remember that the happiest people are not those getting more, but
             those giving more.
           </p>
-          <img src="/qr.jpeg" alt="" className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12" />
+          <img src="/qr.png" alt="" className="rounded-sm w-6/12 sm:w-4/12 md:w-5/12 lg:w-3/12" />
           <a
-            href="/qr.jpeg"
+            href="/qr.png"
             className="flex justify-center items-center p-3 px-6 w-max bg-indigo-500 text-white font-semibold rounded-full shadow-lg hover:shadow-indigo-500/30 hover:scale-[1.02] transition-all ease-in-out duration-100 sm:scale-100 m-1.5"
             target="_blank"
             rel="noopener noreferrer"
