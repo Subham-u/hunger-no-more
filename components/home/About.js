@@ -8,14 +8,11 @@ export default function About() {
     >
       <p className="text-4xl font-bold">About Us</p>
       <p className="text-gray-500 text-xl w-full md:w-8/12 text-center my-4">
-      Our college is not just a place of learning but a hub of community engagement. 
-      Through our commitment to social service,we actively collaborate with local groups 
-      to make a tangible impact. Whether it's organizing clean-up drives, hosting 
+      Welcome to the Rishihood University Community Engagement website! Here, we bridge the gap between the university and the local community, fostering a culture of collaboration, learning, and mutual support. Our platform is designed to showcase and facilitate a variety of initiatives that connect students, faculty, and community members. 
         <br />
-        awareness campaigns, or fundraising for community initiatives, our college fosters a culture of compassion and action.
-        By amplifying the voices of local organizations and actively participating in their causes, 
-        we strive to create meaningful change and build a stronger, more connected community together.
+        One of our key focus areas is the Kishora community, located near our university. We are actively working with Kishora to support and empower its residents through educational programs, healthcare initiatives, and sustainable development projects. Our efforts aim to enhance the quality of life in Kishora while providing our students with invaluable real-world experience.
         <br />
+        Explore our resources, join ongoing projects, and discover how you can make a difference. Together, we can build a thriving community that thrives on shared knowledge, compassion, and active participation. Join us in our mission to create lasting, positive impact in Kishora and beyond.
       </p>
     </div>
   );

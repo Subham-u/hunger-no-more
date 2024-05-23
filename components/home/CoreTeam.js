@@ -3,6 +3,16 @@ import React from "react";
 export default function CoreTeam() {
   const cc = [
     {
+      avatar: "/team/Sahil-Aggarwal.jpg",
+      name: "Sahil-Aggarwal",
+      position: "CEO",
+    },
+    {
+      avatar: "/team/Soumya-Aggarwal.jpg",
+      name: "Soumya-Aggarwal",
+      position: "COO",
+    },
+    {
       avatar: "/team/Sanjeev-Kumar.jpg",
       name: "Sanjeev-Kumar",
       position: "Dean and Professor",
@@ -11,16 +21,6 @@ export default function CoreTeam() {
       avatar: "/team/Alka-Siwach.jpg",
       name: "Alka-Siwach",
       position: "Coordinator",
-    },
-    {
-      avatar: "/team/Soumya-Aggarwal.jpg",
-      name: "Soumya-Aggarwal",
-      position: "COO",
-    },
-    {
-      avatar: "/team/Sahil-Aggarwal.jpg",
-      name: "Sahil-Aggarwal",
-      position: "CEO",
     },
   ];
   return (

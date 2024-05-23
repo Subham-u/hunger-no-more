@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import img from 'next/image'
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -7,14 +8,14 @@ export default function Navbar() {
     <div class="px-4 py-6 mx-auto lg:py-8 sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8">
       <div class="relative flex items-center justify-between lg:justify-center lg:space-x-16">
         <ul class="flex items-center hidden space-x-8 lg:flex">
-          <li>
+        <li>
             <a
-              href="#donate"
-              aria-label="Donate"
-              title="Donate"
+              href="https://yash121ls.github.io/plant-in-ru/"
+              aria-label="Plants at RU"
+              title="Plants at RU"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
-              Donate
+              Plants at RU
             </a>
           </li>
           <li>
@@ -39,22 +40,22 @@ export default function Navbar() {
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <a
-              href="#stats"
-              aria-label="Statistics"
-              title="Statistics"
-              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-            >
-              Statistics
-            </a>
-          </li>
-          <li>
-            <a
               href="#about"
               aria-label="About Us"
               title="About Us"
               class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
             >
               About Us
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              aria-label="Projects"
+              title="Projects"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Projects
             </a>
           </li>
         </ul>
@@ -112,27 +113,7 @@ export default function Navbar() {
                   <ul class="space-y-4">
                     <li>
                       <a
-                        href="#"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Product
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
-                        aria-label="Our product"
-                        title="Our product"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Donate
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
+                        href="#team"
                         aria-label="Product Our Team"
                         title="Product Our Team"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -142,17 +123,7 @@ export default function Navbar() {
                     </li>
                     <li>
                       <a
-                        href="#"
-                        aria-label="Statistics"
-                        title="Statistics"
-                        class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                      >
-                        Statistics
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="#"
+                        href="#about"
                         aria-label="About Us"
                         title="About Us"
                         class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
@@ -160,6 +131,26 @@ export default function Navbar() {
                         About Us
                       </a>
                     </li>
+                    <li>
+            <a
+              href="/"
+              aria-label="Plants at RU"
+              title="Plants at RU"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Plants at RU
+            </a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              aria-label="Projects"
+              title="Projects"
+              class="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
+            >
+              Projects
+            </a>
+          </li>
                   </ul>
                 </nav>
               </div>
